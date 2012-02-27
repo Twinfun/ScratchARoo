@@ -20,13 +20,57 @@ package
 	public class ScratchARoo extends Sprite
 	{		
 		[SWF(width="1024", height="600", backgroundColor="#cccccc", frameRate="30")]
-		[Embed(source='img/IceImg.png')]
-		private var iceImg:Class;
-		private var ice:Bitmap = new iceImg();
 		
-		[Embed(source = 'img/BrickImg.png')]
-		private var brickImg:Class;
-		private var brick:Bitmap = new brickImg();
+		[Embed(source = 'img/Arctic.png')]
+		private var Arctic:Class;
+		[Embed(source = 'img/Brick.png')]
+		private var BrickImg:Class;
+		[Embed(source = 'img/CatAndBike.png')]
+		private var CatAndBike:Class;
+		[Embed(source = 'img/CourtLibrary.png')]
+		private var CourtLibrary:Class;
+		[Embed(source = 'img/Desert.png')]
+		private var Desert:Class;
+		[Embed(source = 'img/DogFish1.png')]
+		private var DogFish1:Class;
+		[Embed(source = 'img/Farm.png')]
+		private var Farm:Class;
+		[Embed(source = 'img/FlamingoBeach.png')]
+		private var FlamingoBeach:Class;
+		[Embed(source = 'img/GrassBoat.png')]
+		private var GrassBoat:Class;
+		[Embed(source = 'img/HopTheMorning.png')]
+		private var HopTheMorning:Class;
+		[Embed(source = 'img/Ice.png')]
+		private var IceImg:Class;
+		[Embed(source = 'img/Icon.png')]
+		private var Icon:Class;
+		[Embed(source = 'img/LivingRoom1.png')]
+		private var LivingRoom1:Class;
+		[Embed(source = 'img/Menu.png')]
+		private var Menu:Class;
+		[Embed(source = 'img/Penguin.png')]
+		private var Penguin:Class;
+		[Embed(source = 'img/PenPencil1.png')]
+		private var PenPencil:Class;
+		[Embed(source = 'img/PotOfGold.png')]
+		private var PotOfGold:Class;
+		[Embed(source = 'img/Rainbow1.png')]
+		private var Rainbow1:Class;
+		[Embed(source = 'img/SeaOcto.png')]
+		private var SeaOcto:Class;
+		[Embed(source = 'img/SleepTight.png')]
+		private var SleepTight:Class;
+		[Embed(source = 'img/SplashScreen.png')]
+		private var SplashScreen:Class;
+		[Embed(source = 'img/TenthDay.png')]
+		private var TenthDay:Class;
+		[Embed(source = 'img/TripToWonderland.png')]
+		private var TripToWonderland:Class;
+		
+		private var ice:Bitmap = new IceImg();
+		
+		private var brick:Bitmap = new BrickImg();
 		
 		private var lineSize:Number = 40;
 		private var doDraw:Boolean = false;
